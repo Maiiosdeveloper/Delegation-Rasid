@@ -22,7 +22,10 @@ class UploadNewBranchViewController: UIViewController {
     }
 
 
-    // MARK: IBActions
+    // MARK: - IBActions
+    @IBAction func nextAction(_ sender: Any) {
+        router?.routeToDelegatorData()
+    }
 
 }
 extension UploadNewBranchViewController: UploadNewBranchDisplayLogic {

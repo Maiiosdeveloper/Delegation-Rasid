@@ -25,4 +25,13 @@ class DelegationConfigurator {
         view.router = router
         return view
     }
+    static func delegatorData() -> DelegatorDataViewController{
+        let view = DelegatorDataViewController()
+        let presenter = DelegatorDataPresenter(view: view)
+        let interactor = DelegatorDataInteractor(presenter: presenter)
+        let router = DelegatorDataaRouter(viewController: view)
+        view.interactor = interactor
+        view.router = router
+        return view
+    }
 }
