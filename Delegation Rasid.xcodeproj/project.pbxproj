@@ -28,6 +28,11 @@
 		3C25E80628F5667D00C7ED0A /* CancelDelegationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C25E80528F5667D00C7ED0A /* CancelDelegationPresenter.swift */; };
 		3C25E80828F5668C00C7ED0A /* CancelDelegationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C25E80728F5668C00C7ED0A /* CancelDelegationRouter.swift */; };
 		3C25E80A28F5691200C7ED0A /* DelegationConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C25E80928F5691200C7ED0A /* DelegationConfigurator.swift */; };
+		3C25E80E28F56D6700C7ED0A /* UploadNewBranchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C25E80C28F56D6700C7ED0A /* UploadNewBranchViewController.swift */; };
+		3C25E80F28F56D6700C7ED0A /* UploadNewBranchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C25E80D28F56D6700C7ED0A /* UploadNewBranchViewController.xib */; };
+		3C25E81128F576E700C7ED0A /* UploadNewBranchInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C25E81028F576E700C7ED0A /* UploadNewBranchInteractor.swift */; };
+		3C25E81328F576F900C7ED0A /* UploadNewBranchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C25E81228F576F900C7ED0A /* UploadNewBranchPresenter.swift */; };
+		3C25E81528F5770A00C7ED0A /* UploadNewBranchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C25E81428F5770A00C7ED0A /* UploadNewBranchRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +59,11 @@
 		3C25E80528F5667D00C7ED0A /* CancelDelegationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelDelegationPresenter.swift; sourceTree = "<group>"; };
 		3C25E80728F5668C00C7ED0A /* CancelDelegationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelDelegationRouter.swift; sourceTree = "<group>"; };
 		3C25E80928F5691200C7ED0A /* DelegationConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegationConfigurator.swift; sourceTree = "<group>"; };
+		3C25E80C28F56D6700C7ED0A /* UploadNewBranchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadNewBranchViewController.swift; sourceTree = "<group>"; };
+		3C25E80D28F56D6700C7ED0A /* UploadNewBranchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UploadNewBranchViewController.xib; sourceTree = "<group>"; };
+		3C25E81028F576E700C7ED0A /* UploadNewBranchInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadNewBranchInteractor.swift; sourceTree = "<group>"; };
+		3C25E81228F576F900C7ED0A /* UploadNewBranchPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadNewBranchPresenter.swift; sourceTree = "<group>"; };
+		3C25E81428F5770A00C7ED0A /* UploadNewBranchRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadNewBranchRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +112,7 @@
 		3C25E7E728F55F2700C7ED0A /* Delegation */ = {
 			isa = PBXGroup;
 			children = (
-				3C25E80B28F56B4C00C7ED0A /* New Group */,
+				3C25E80B28F56B4C00C7ED0A /* uploadNewBranch */,
 				3C25E7E928F55F4500C7ED0A /* cancelDelegation */,
 				3C25E7E828F55F3E00C7ED0A /* shared */,
 			);
@@ -161,11 +171,16 @@
 			path = "Cairo Font";
 			sourceTree = "<group>";
 		};
-		3C25E80B28F56B4C00C7ED0A /* New Group */ = {
+		3C25E80B28F56B4C00C7ED0A /* uploadNewBranch */ = {
 			isa = PBXGroup;
 			children = (
+				3C25E80C28F56D6700C7ED0A /* UploadNewBranchViewController.swift */,
+				3C25E80D28F56D6700C7ED0A /* UploadNewBranchViewController.xib */,
+				3C25E81028F576E700C7ED0A /* UploadNewBranchInteractor.swift */,
+				3C25E81228F576F900C7ED0A /* UploadNewBranchPresenter.swift */,
+				3C25E81428F5770A00C7ED0A /* UploadNewBranchRouter.swift */,
 			);
-			path = "New Group";
+			path = uploadNewBranch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +247,7 @@
 				3C25E7ED28F55F6B00C7ED0A /* CancelDelegationViewController.xib in Resources */,
 				3C25E80028F563AC00C7ED0A /* Cairo-Black.ttf in Resources */,
 				3C25E7FB28F563AC00C7ED0A /* Cairo-ExtraLight.ttf in Resources */,
+				3C25E80F28F56D6700C7ED0A /* UploadNewBranchViewController.xib in Resources */,
 				3C25E7FA28F563AC00C7ED0A /* Cairo-ExtraBold.ttf in Resources */,
 				3C25E80228F563AC00C7ED0A /* Cairo-VariableFont_wght.ttf in Resources */,
 				3C25E7E028F55C9900C7ED0A /* LaunchScreen.storyboard in Resources */,
@@ -249,14 +265,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C25E81528F5770A00C7ED0A /* UploadNewBranchRouter.swift in Sources */,
 				3C25E7EC28F55F6B00C7ED0A /* CancelDelegationViewController.swift in Sources */,
 				3C25E80828F5668C00C7ED0A /* CancelDelegationRouter.swift in Sources */,
+				3C25E81128F576E700C7ED0A /* UploadNewBranchInteractor.swift in Sources */,
 				3C25E7D828F55C9900C7ED0A /* ViewController.swift in Sources */,
 				3C25E80628F5667D00C7ED0A /* CancelDelegationPresenter.swift in Sources */,
+				3C25E80E28F56D6700C7ED0A /* UploadNewBranchViewController.swift in Sources */,
 				3C25E80428F5666B00C7ED0A /* CancelDelegationInteractor.swift in Sources */,
 				3C25E7D428F55C9900C7ED0A /* AppDelegate.swift in Sources */,
 				3C25E80A28F5691200C7ED0A /* DelegationConfigurator.swift in Sources */,
 				3C25E7D628F55C9900C7ED0A /* SceneDelegate.swift in Sources */,
+				3C25E81328F576F900C7ED0A /* UploadNewBranchPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

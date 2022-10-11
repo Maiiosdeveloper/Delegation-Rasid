@@ -16,4 +16,13 @@ class DelegationConfigurator {
         view.router = router
         return view
     }
+    static func uploadNewBranch() -> UploadNewBranchViewController{
+        let view = UploadNewBranchViewController()
+        let presenter = UploadNewBranchPresenter(view: view)
+        let interactor = UploadNewBranchInteractor(presenter: presenter)
+        let router = UploadNewBranchRouter(viewController: view)
+        view.interactor = interactor
+        view.router = router
+        return view
+    }
 }

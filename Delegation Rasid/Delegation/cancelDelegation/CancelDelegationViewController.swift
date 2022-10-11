@@ -25,6 +25,7 @@ class CancelDelegationViewController: UIViewController {
 
     // MARK: IBActions
     @IBAction func nextAction(_ sender: Any) {
+        router?.routeToUploadNewBranch()
     }
     
 
