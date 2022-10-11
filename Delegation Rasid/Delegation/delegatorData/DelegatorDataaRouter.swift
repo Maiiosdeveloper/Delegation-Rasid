@@ -7,7 +7,7 @@
 
 import Foundation
 protocol DelegatorDataaRoutingLogic {
-    
+    func routeToBankData()
 }
 class DelegatorDataaRouter {
     var viewController: DelegatorDataViewController?
@@ -17,5 +17,10 @@ class DelegatorDataaRouter {
     
 }
 extension DelegatorDataaRouter: DelegatorDataaRoutingLogic {
+    func routeToBankData() {
+        let view = DelegationConfigurator.bankData()
+        viewController?.navigationController?.pushViewController(view, animated: true)
+    }
+    
     
 }

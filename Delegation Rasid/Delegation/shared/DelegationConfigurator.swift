@@ -34,4 +34,13 @@ class DelegationConfigurator {
         view.router = router
         return view
     }
+    static func bankData() -> BankDataViewController{
+        let view = BankDataViewController()
+        let presenter = BankDataPresenter(view: view)
+        let interactor = BankDataInteractor(presenter: presenter)
+        let router = BankDataRouter(viewController: view)
+        view.interactor = interactor
+        view.router = router
+        return view
+    }
 }

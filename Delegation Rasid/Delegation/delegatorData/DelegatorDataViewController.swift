@@ -22,6 +22,10 @@ class DelegatorDataViewController: UIViewController {
     }
 
 
+    // MARK: - IBActions
+    @IBAction func nextAction(_ sender: Any) {
+        router?.routeToBankData()
+    }
     
 
 }
