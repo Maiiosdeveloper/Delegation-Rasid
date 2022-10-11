@@ -13,6 +13,21 @@
 		3C25E7DB28F55C9900C7ED0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C25E7D928F55C9900C7ED0A /* Main.storyboard */; };
 		3C25E7DD28F55C9900C7ED0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C25E7DC28F55C9900C7ED0A /* Assets.xcassets */; };
 		3C25E7E028F55C9900C7ED0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C25E7DE28F55C9900C7ED0A /* LaunchScreen.storyboard */; };
+		3C25E7EC28F55F6B00C7ED0A /* CancelDelegationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C25E7EA28F55F6B00C7ED0A /* CancelDelegationViewController.swift */; };
+		3C25E7ED28F55F6B00C7ED0A /* CancelDelegationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C25E7EB28F55F6B00C7ED0A /* CancelDelegationViewController.xib */; };
+		3C25E7FA28F563AC00C7ED0A /* Cairo-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C25E7F128F563AB00C7ED0A /* Cairo-ExtraBold.ttf */; };
+		3C25E7FB28F563AC00C7ED0A /* Cairo-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C25E7F228F563AB00C7ED0A /* Cairo-ExtraLight.ttf */; };
+		3C25E7FC28F563AC00C7ED0A /* Cairo-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C25E7F328F563AB00C7ED0A /* Cairo-SemiBold.ttf */; };
+		3C25E7FD28F563AC00C7ED0A /* Cairo-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C25E7F428F563AB00C7ED0A /* Cairo-Medium.ttf */; };
+		3C25E7FE28F563AC00C7ED0A /* Cairo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C25E7F528F563AC00C7ED0A /* Cairo-Regular.ttf */; };
+		3C25E7FF28F563AC00C7ED0A /* Cairo-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C25E7F628F563AC00C7ED0A /* Cairo-Light.ttf */; };
+		3C25E80028F563AC00C7ED0A /* Cairo-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C25E7F728F563AC00C7ED0A /* Cairo-Black.ttf */; };
+		3C25E80128F563AC00C7ED0A /* Cairo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C25E7F828F563AC00C7ED0A /* Cairo-Bold.ttf */; };
+		3C25E80228F563AC00C7ED0A /* Cairo-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C25E7F928F563AC00C7ED0A /* Cairo-VariableFont_wght.ttf */; };
+		3C25E80428F5666B00C7ED0A /* CancelDelegationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C25E80328F5666B00C7ED0A /* CancelDelegationInteractor.swift */; };
+		3C25E80628F5667D00C7ED0A /* CancelDelegationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C25E80528F5667D00C7ED0A /* CancelDelegationPresenter.swift */; };
+		3C25E80828F5668C00C7ED0A /* CancelDelegationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C25E80728F5668C00C7ED0A /* CancelDelegationRouter.swift */; };
+		3C25E80A28F5691200C7ED0A /* DelegationConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C25E80928F5691200C7ED0A /* DelegationConfigurator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +39,21 @@
 		3C25E7DC28F55C9900C7ED0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C25E7DF28F55C9900C7ED0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C25E7E128F55C9900C7ED0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C25E7EA28F55F6B00C7ED0A /* CancelDelegationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelDelegationViewController.swift; sourceTree = "<group>"; };
+		3C25E7EB28F55F6B00C7ED0A /* CancelDelegationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CancelDelegationViewController.xib; sourceTree = "<group>"; };
+		3C25E7F128F563AB00C7ED0A /* Cairo-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-ExtraBold.ttf"; sourceTree = "<group>"; };
+		3C25E7F228F563AB00C7ED0A /* Cairo-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-ExtraLight.ttf"; sourceTree = "<group>"; };
+		3C25E7F328F563AB00C7ED0A /* Cairo-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-SemiBold.ttf"; sourceTree = "<group>"; };
+		3C25E7F428F563AB00C7ED0A /* Cairo-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Medium.ttf"; sourceTree = "<group>"; };
+		3C25E7F528F563AC00C7ED0A /* Cairo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Regular.ttf"; sourceTree = "<group>"; };
+		3C25E7F628F563AC00C7ED0A /* Cairo-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Light.ttf"; sourceTree = "<group>"; };
+		3C25E7F728F563AC00C7ED0A /* Cairo-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Black.ttf"; sourceTree = "<group>"; };
+		3C25E7F828F563AC00C7ED0A /* Cairo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Bold.ttf"; sourceTree = "<group>"; };
+		3C25E7F928F563AC00C7ED0A /* Cairo-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		3C25E80328F5666B00C7ED0A /* CancelDelegationInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelDelegationInteractor.swift; sourceTree = "<group>"; };
+		3C25E80528F5667D00C7ED0A /* CancelDelegationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelDelegationPresenter.swift; sourceTree = "<group>"; };
+		3C25E80728F5668C00C7ED0A /* CancelDelegationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelDelegationRouter.swift; sourceTree = "<group>"; };
+		3C25E80928F5691200C7ED0A /* DelegationConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegationConfigurator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +86,8 @@
 		3C25E7D228F55C9900C7ED0A /* Delegation Rasid */ = {
 			isa = PBXGroup;
 			children = (
+				3C25E7EE28F5638100C7ED0A /* Resources */,
+				3C25E7E728F55F2700C7ED0A /* Delegation */,
 				3C25E7D328F55C9900C7ED0A /* AppDelegate.swift */,
 				3C25E7D528F55C9900C7ED0A /* SceneDelegate.swift */,
 				3C25E7D728F55C9900C7ED0A /* ViewController.swift */,
@@ -65,6 +97,75 @@
 				3C25E7E128F55C9900C7ED0A /* Info.plist */,
 			);
 			path = "Delegation Rasid";
+			sourceTree = "<group>";
+		};
+		3C25E7E728F55F2700C7ED0A /* Delegation */ = {
+			isa = PBXGroup;
+			children = (
+				3C25E80B28F56B4C00C7ED0A /* New Group */,
+				3C25E7E928F55F4500C7ED0A /* cancelDelegation */,
+				3C25E7E828F55F3E00C7ED0A /* shared */,
+			);
+			path = Delegation;
+			sourceTree = "<group>";
+		};
+		3C25E7E828F55F3E00C7ED0A /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				3C25E80928F5691200C7ED0A /* DelegationConfigurator.swift */,
+			);
+			path = shared;
+			sourceTree = "<group>";
+		};
+		3C25E7E928F55F4500C7ED0A /* cancelDelegation */ = {
+			isa = PBXGroup;
+			children = (
+				3C25E7EA28F55F6B00C7ED0A /* CancelDelegationViewController.swift */,
+				3C25E7EB28F55F6B00C7ED0A /* CancelDelegationViewController.xib */,
+				3C25E80328F5666B00C7ED0A /* CancelDelegationInteractor.swift */,
+				3C25E80528F5667D00C7ED0A /* CancelDelegationPresenter.swift */,
+				3C25E80728F5668C00C7ED0A /* CancelDelegationRouter.swift */,
+			);
+			path = cancelDelegation;
+			sourceTree = "<group>";
+		};
+		3C25E7EE28F5638100C7ED0A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3C25E7EF28F5638A00C7ED0A /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3C25E7EF28F5638A00C7ED0A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3C25E7F028F563AB00C7ED0A /* Cairo Font */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		3C25E7F028F563AB00C7ED0A /* Cairo Font */ = {
+			isa = PBXGroup;
+			children = (
+				3C25E7F128F563AB00C7ED0A /* Cairo-ExtraBold.ttf */,
+				3C25E7F228F563AB00C7ED0A /* Cairo-ExtraLight.ttf */,
+				3C25E7F328F563AB00C7ED0A /* Cairo-SemiBold.ttf */,
+				3C25E7F428F563AB00C7ED0A /* Cairo-Medium.ttf */,
+				3C25E7F528F563AC00C7ED0A /* Cairo-Regular.ttf */,
+				3C25E7F628F563AC00C7ED0A /* Cairo-Light.ttf */,
+				3C25E7F728F563AC00C7ED0A /* Cairo-Black.ttf */,
+				3C25E7F828F563AC00C7ED0A /* Cairo-Bold.ttf */,
+				3C25E7F928F563AC00C7ED0A /* Cairo-VariableFont_wght.ttf */,
+			);
+			path = "Cairo Font";
+			sourceTree = "<group>";
+		};
+		3C25E80B28F56B4C00C7ED0A /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +226,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C25E7FF28F563AC00C7ED0A /* Cairo-Light.ttf in Resources */,
+				3C25E7FE28F563AC00C7ED0A /* Cairo-Regular.ttf in Resources */,
+				3C25E7FD28F563AC00C7ED0A /* Cairo-Medium.ttf in Resources */,
+				3C25E7ED28F55F6B00C7ED0A /* CancelDelegationViewController.xib in Resources */,
+				3C25E80028F563AC00C7ED0A /* Cairo-Black.ttf in Resources */,
+				3C25E7FB28F563AC00C7ED0A /* Cairo-ExtraLight.ttf in Resources */,
+				3C25E7FA28F563AC00C7ED0A /* Cairo-ExtraBold.ttf in Resources */,
+				3C25E80228F563AC00C7ED0A /* Cairo-VariableFont_wght.ttf in Resources */,
 				3C25E7E028F55C9900C7ED0A /* LaunchScreen.storyboard in Resources */,
 				3C25E7DD28F55C9900C7ED0A /* Assets.xcassets in Resources */,
 				3C25E7DB28F55C9900C7ED0A /* Main.storyboard in Resources */,
+				3C25E80128F563AC00C7ED0A /* Cairo-Bold.ttf in Resources */,
+				3C25E7FC28F563AC00C7ED0A /* Cairo-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +249,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C25E7EC28F55F6B00C7ED0A /* CancelDelegationViewController.swift in Sources */,
+				3C25E80828F5668C00C7ED0A /* CancelDelegationRouter.swift in Sources */,
 				3C25E7D828F55C9900C7ED0A /* ViewController.swift in Sources */,
+				3C25E80628F5667D00C7ED0A /* CancelDelegationPresenter.swift in Sources */,
+				3C25E80428F5666B00C7ED0A /* CancelDelegationInteractor.swift in Sources */,
 				3C25E7D428F55C9900C7ED0A /* AppDelegate.swift in Sources */,
+				3C25E80A28F5691200C7ED0A /* DelegationConfigurator.swift in Sources */,
 				3C25E7D628F55C9900C7ED0A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,7 +407,6 @@
 				INFOPLIST_FILE = "Delegation Rasid/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -318,7 +433,6 @@
 				INFOPLIST_FILE = "Delegation Rasid/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
