@@ -43,6 +43,11 @@
 		3C8A02A328F596BC005A554D /* BankDataInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8A02A228F596BC005A554D /* BankDataInteractor.swift */; };
 		3C8A02A528F596CA005A554D /* BankDataPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8A02A428F596CA005A554D /* BankDataPresenter.swift */; };
 		3C8A02A728F596D8005A554D /* BankDataRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8A02A628F596D8005A554D /* BankDataRouter.swift */; };
+		3C8A02AB28F59D58005A554D /* ActivityDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8A02A928F59D58005A554D /* ActivityDataViewController.swift */; };
+		3C8A02AC28F59D58005A554D /* ActivityDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C8A02AA28F59D58005A554D /* ActivityDataViewController.xib */; };
+		3C8A02AE28F59EDF005A554D /* ActivityDataInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8A02AD28F59EDE005A554D /* ActivityDataInteractor.swift */; };
+		3C8A02B028F59EEE005A554D /* ActivityDataPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8A02AF28F59EEE005A554D /* ActivityDataPresenter.swift */; };
+		3C8A02B228F59EFB005A554D /* ActivityDataRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8A02B128F59EFB005A554D /* ActivityDataRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +89,11 @@
 		3C8A02A228F596BC005A554D /* BankDataInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankDataInteractor.swift; sourceTree = "<group>"; };
 		3C8A02A428F596CA005A554D /* BankDataPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankDataPresenter.swift; sourceTree = "<group>"; };
 		3C8A02A628F596D8005A554D /* BankDataRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankDataRouter.swift; sourceTree = "<group>"; };
+		3C8A02A928F59D58005A554D /* ActivityDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDataViewController.swift; sourceTree = "<group>"; };
+		3C8A02AA28F59D58005A554D /* ActivityDataViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityDataViewController.xib; sourceTree = "<group>"; };
+		3C8A02AD28F59EDE005A554D /* ActivityDataInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDataInteractor.swift; sourceTree = "<group>"; };
+		3C8A02AF28F59EEE005A554D /* ActivityDataPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDataPresenter.swift; sourceTree = "<group>"; };
+		3C8A02B128F59EFB005A554D /* ActivityDataRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDataRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +142,7 @@
 		3C25E7E728F55F2700C7ED0A /* Delegation */ = {
 			isa = PBXGroup;
 			children = (
+				3C8A02A828F59D40005A554D /* activityData */,
 				3C8A029D28F59224005A554D /* bankData */,
 				3C8A029228F5878A005A554D /* delegatorData */,
 				3C25E80B28F56B4C00C7ED0A /* uploadNewBranch */,
@@ -229,6 +240,18 @@
 			path = bankData;
 			sourceTree = "<group>";
 		};
+		3C8A02A828F59D40005A554D /* activityData */ = {
+			isa = PBXGroup;
+			children = (
+				3C8A02A928F59D58005A554D /* ActivityDataViewController.swift */,
+				3C8A02AA28F59D58005A554D /* ActivityDataViewController.xib */,
+				3C8A02AD28F59EDE005A554D /* ActivityDataInteractor.swift */,
+				3C8A02AF28F59EEE005A554D /* ActivityDataPresenter.swift */,
+				3C8A02B128F59EFB005A554D /* ActivityDataRouter.swift */,
+			);
+			path = activityData;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -290,6 +313,7 @@
 				3C8A02A128F59307005A554D /* BankDataViewController.xib in Resources */,
 				3C25E7FF28F563AC00C7ED0A /* Cairo-Light.ttf in Resources */,
 				3C8A029628F587AE005A554D /* DelegatorDataViewController.xib in Resources */,
+				3C8A02AC28F59D58005A554D /* ActivityDataViewController.xib in Resources */,
 				3C25E7FE28F563AC00C7ED0A /* Cairo-Regular.ttf in Resources */,
 				3C25E7FD28F563AC00C7ED0A /* Cairo-Medium.ttf in Resources */,
 				3C25E7ED28F55F6B00C7ED0A /* CancelDelegationViewController.xib in Resources */,
@@ -313,20 +337,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C8A02B028F59EEE005A554D /* ActivityDataPresenter.swift in Sources */,
 				3C25E81528F5770A00C7ED0A /* UploadNewBranchRouter.swift in Sources */,
 				3C25E7EC28F55F6B00C7ED0A /* CancelDelegationViewController.swift in Sources */,
 				3C8A02A728F596D8005A554D /* BankDataRouter.swift in Sources */,
 				3C25E80828F5668C00C7ED0A /* CancelDelegationRouter.swift in Sources */,
 				3C25E81128F576E700C7ED0A /* UploadNewBranchInteractor.swift in Sources */,
+				3C8A02AB28F59D58005A554D /* ActivityDataViewController.swift in Sources */,
 				3C8A029528F587AE005A554D /* DelegatorDataViewController.swift in Sources */,
 				3C8A02A528F596CA005A554D /* BankDataPresenter.swift in Sources */,
 				3C25E7D828F55C9900C7ED0A /* ViewController.swift in Sources */,
 				3C8A029828F58D3B005A554D /* DelegatorDataInteractor.swift in Sources */,
+				3C8A02B228F59EFB005A554D /* ActivityDataRouter.swift in Sources */,
 				3C25E80628F5667D00C7ED0A /* CancelDelegationPresenter.swift in Sources */,
 				3C8A029C28F58D5C005A554D /* DelegatorDataaRouter.swift in Sources */,
 				3C8A029A28F58D4C005A554D /* DelegatorDataPresenter.swift in Sources */,
 				3C8A02A328F596BC005A554D /* BankDataInteractor.swift in Sources */,
 				3C25E80E28F56D6700C7ED0A /* UploadNewBranchViewController.swift in Sources */,
+				3C8A02AE28F59EDF005A554D /* ActivityDataInteractor.swift in Sources */,
 				3C25E80428F5666B00C7ED0A /* CancelDelegationInteractor.swift in Sources */,
 				3C25E7D428F55C9900C7ED0A /* AppDelegate.swift in Sources */,
 				3C8A02A028F59307005A554D /* BankDataViewController.swift in Sources */,

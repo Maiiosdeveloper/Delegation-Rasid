@@ -22,6 +22,10 @@ class BankDataViewController: UIViewController {
         
     }
 
+    // MARK: - IBActions
+    @IBAction func nextAction(_ sender: Any) {
+        router?.routeToActivityData()
+    }
 
 }
 extension BankDataViewController: BankDataDisplayLogic {

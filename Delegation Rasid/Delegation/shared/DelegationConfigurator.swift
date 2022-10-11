@@ -43,4 +43,13 @@ class DelegationConfigurator {
         view.router = router
         return view
     }
+    static func activityData() -> ActivityDataViewController{
+        let view = ActivityDataViewController()
+        let presenter = ActivityDataPresenter(view: view)
+        let interactor = ActivityDataInteractor(presenter: presenter)
+        let router = ActivityDataRouter(viewController: view)
+        view.interactor = interactor
+        view.router = router
+        return view
+    }
 }
