@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="Cairo-VariableFont_wght.ttf">
+        <array key="Cairo-Regular.ttf">
             <string>Cairo-Regular</string>
         </array>
     </customFonts>
@@ -137,7 +137,7 @@
     <resources>
         <image name="empty" width="16" height="16"/>
         <namedColor name="textFeildBackground">
-            <color red="0.95686274509803915" green="0.96470588235294119" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.9570000171661377" green="0.9649999737739563" blue="0.97299998998641968" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

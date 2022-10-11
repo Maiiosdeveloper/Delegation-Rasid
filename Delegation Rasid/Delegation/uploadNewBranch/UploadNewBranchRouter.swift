@@ -7,7 +7,7 @@
 
 import Foundation
 protocol UploadNewBranchRoutingLogic {
-    
+    func routeToDelegatorData()
 }
 class UploadNewBranchRouter {
     var viewController: UploadNewBranchViewController?
@@ -16,5 +16,10 @@ class UploadNewBranchRouter {
     }
 }
 extension UploadNewBranchRouter: UploadNewBranchRoutingLogic {
+    func routeToDelegatorData() {
+        let view = DelegationConfigurator.delegatorData()
+        viewController?.navigationController?.pushViewController(view, animated: true)
+    }
+    
     
 }
