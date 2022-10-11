@@ -7,7 +7,7 @@
 
 import Foundation
 protocol CancelDelegationRoutingLogic {
-    
+    func routeToUploadNewBranch()
 }
 class CancelDelegationRouter {
     var viewController: CancelDelegationViewController?
@@ -16,5 +16,10 @@ class CancelDelegationRouter {
     }
 }
 extension CancelDelegationRouter: CancelDelegationRoutingLogic {
+    func routeToUploadNewBranch() {
+        let view = DelegationConfigurator.uploadNewBranch()
+        viewController?.navigationController?.pushViewController(view, animated: true)
+    }
+    
     
 }
