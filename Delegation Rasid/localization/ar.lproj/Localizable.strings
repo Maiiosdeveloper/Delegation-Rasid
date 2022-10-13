@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  Delegation Rasid
+
+  Created by fintech on 13/10/2022.
+  
+*/
+"Button Language" = "إنجليزي";
+"Done" = "تم";
+"Cancel" = "إلغاء";
+"Required" = "مطلوب";
+"Back" = "رجوع";

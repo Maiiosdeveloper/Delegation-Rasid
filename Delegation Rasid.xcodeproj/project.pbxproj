@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C1F0F1928F6AAB500CD49C3 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1F0F1828F6AAB500CD49C3 /* Validator.swift */; };
+		3C1F0F1C28F6AD5100CD49C3 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1F0F1B28F6AD5100CD49C3 /* StringExtension.swift */; };
+		3C1F0F1F28F6BC2A00CD49C3 /* DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1F0F1E28F6BC2A00CD49C3 /* DatePicker.swift */; };
 		3C25E7D428F55C9900C7ED0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C25E7D328F55C9900C7ED0A /* AppDelegate.swift */; };
 		3C25E7D628F55C9900C7ED0A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C25E7D528F55C9900C7ED0A /* SceneDelegate.swift */; };
 		3C25E7D828F55C9900C7ED0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C25E7D728F55C9900C7ED0A /* ViewController.swift */; };
@@ -14,7 +17,6 @@
 		3C25E7DD28F55C9900C7ED0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C25E7DC28F55C9900C7ED0A /* Assets.xcassets */; };
 		3C25E7E028F55C9900C7ED0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C25E7DE28F55C9900C7ED0A /* LaunchScreen.storyboard */; };
 		3C25E7EC28F55F6B00C7ED0A /* CancelDelegationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C25E7EA28F55F6B00C7ED0A /* CancelDelegationViewController.swift */; };
-		3C25E7ED28F55F6B00C7ED0A /* CancelDelegationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C25E7EB28F55F6B00C7ED0A /* CancelDelegationViewController.xib */; };
 		3C25E7FA28F563AC00C7ED0A /* Cairo-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C25E7F128F563AB00C7ED0A /* Cairo-ExtraBold.ttf */; };
 		3C25E7FB28F563AC00C7ED0A /* Cairo-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C25E7F228F563AB00C7ED0A /* Cairo-ExtraLight.ttf */; };
 		3C25E7FC28F563AC00C7ED0A /* Cairo-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C25E7F328F563AB00C7ED0A /* Cairo-SemiBold.ttf */; };
@@ -29,28 +31,35 @@
 		3C25E80828F5668C00C7ED0A /* CancelDelegationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C25E80728F5668C00C7ED0A /* CancelDelegationRouter.swift */; };
 		3C25E80A28F5691200C7ED0A /* DelegationConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C25E80928F5691200C7ED0A /* DelegationConfigurator.swift */; };
 		3C25E80E28F56D6700C7ED0A /* UploadNewBranchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C25E80C28F56D6700C7ED0A /* UploadNewBranchViewController.swift */; };
-		3C25E80F28F56D6700C7ED0A /* UploadNewBranchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C25E80D28F56D6700C7ED0A /* UploadNewBranchViewController.xib */; };
 		3C25E81128F576E700C7ED0A /* UploadNewBranchInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C25E81028F576E700C7ED0A /* UploadNewBranchInteractor.swift */; };
 		3C25E81328F576F900C7ED0A /* UploadNewBranchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C25E81228F576F900C7ED0A /* UploadNewBranchPresenter.swift */; };
 		3C25E81528F5770A00C7ED0A /* UploadNewBranchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C25E81428F5770A00C7ED0A /* UploadNewBranchRouter.swift */; };
 		3C8A029528F587AE005A554D /* DelegatorDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8A029328F587AE005A554D /* DelegatorDataViewController.swift */; };
-		3C8A029628F587AE005A554D /* DelegatorDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C8A029428F587AE005A554D /* DelegatorDataViewController.xib */; };
 		3C8A029828F58D3B005A554D /* DelegatorDataInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8A029728F58D3B005A554D /* DelegatorDataInteractor.swift */; };
 		3C8A029A28F58D4C005A554D /* DelegatorDataPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8A029928F58D4C005A554D /* DelegatorDataPresenter.swift */; };
 		3C8A029C28F58D5C005A554D /* DelegatorDataaRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8A029B28F58D5C005A554D /* DelegatorDataaRouter.swift */; };
 		3C8A02A028F59307005A554D /* BankDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8A029E28F59307005A554D /* BankDataViewController.swift */; };
-		3C8A02A128F59307005A554D /* BankDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C8A029F28F59307005A554D /* BankDataViewController.xib */; };
 		3C8A02A328F596BC005A554D /* BankDataInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8A02A228F596BC005A554D /* BankDataInteractor.swift */; };
 		3C8A02A528F596CA005A554D /* BankDataPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8A02A428F596CA005A554D /* BankDataPresenter.swift */; };
 		3C8A02A728F596D8005A554D /* BankDataRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8A02A628F596D8005A554D /* BankDataRouter.swift */; };
 		3C8A02AB28F59D58005A554D /* ActivityDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8A02A928F59D58005A554D /* ActivityDataViewController.swift */; };
-		3C8A02AC28F59D58005A554D /* ActivityDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C8A02AA28F59D58005A554D /* ActivityDataViewController.xib */; };
 		3C8A02AE28F59EDF005A554D /* ActivityDataInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8A02AD28F59EDE005A554D /* ActivityDataInteractor.swift */; };
 		3C8A02B028F59EEE005A554D /* ActivityDataPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8A02AF28F59EEE005A554D /* ActivityDataPresenter.swift */; };
 		3C8A02B228F59EFB005A554D /* ActivityDataRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8A02B128F59EFB005A554D /* ActivityDataRouter.swift */; };
+		3CD4CAC928F81699003535F8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3CD4CACB28F81699003535F8 /* Localizable.strings */; };
+		3CD4CACD28F816FD003535F8 /* ActivityDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CD4CACF28F816FD003535F8 /* ActivityDataViewController.xib */; };
+		3CD4CAD428F818B9003535F8 /* BankDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CD4CAD628F818B9003535F8 /* BankDataViewController.xib */; };
+		3CD4CADB28F8191C003535F8 /* DelegatorDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CD4CADD28F8191C003535F8 /* DelegatorDataViewController.xib */; };
+		3CD4CAE228F819AE003535F8 /* UploadNewBranchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CD4CAE428F819AE003535F8 /* UploadNewBranchViewController.xib */; };
+		3CD4CAE928F81A2A003535F8 /* CancelDelegationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CD4CAEB28F81A2A003535F8 /* CancelDelegationViewController.xib */; };
+		3CD4CAF128F82B74003535F8 /* LocalizeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD4CAF028F82B74003535F8 /* LocalizeHelper.swift */; };
+		3CD4CAF328F842FC003535F8 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD4CAF228F842FC003535F8 /* ViewControllerExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C1F0F1828F6AAB500CD49C3 /* Validator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		3C1F0F1B28F6AD5100CD49C3 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		3C1F0F1E28F6BC2A00CD49C3 /* DatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePicker.swift; sourceTree = "<group>"; };
 		3C25E7D028F55C9900C7ED0A /* Delegation Rasid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Delegation Rasid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C25E7D328F55C9900C7ED0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C25E7D528F55C9900C7ED0A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,7 +69,6 @@
 		3C25E7DF28F55C9900C7ED0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C25E7E128F55C9900C7ED0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C25E7EA28F55F6B00C7ED0A /* CancelDelegationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelDelegationViewController.swift; sourceTree = "<group>"; };
-		3C25E7EB28F55F6B00C7ED0A /* CancelDelegationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CancelDelegationViewController.xib; sourceTree = "<group>"; };
 		3C25E7F128F563AB00C7ED0A /* Cairo-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-ExtraBold.ttf"; sourceTree = "<group>"; };
 		3C25E7F228F563AB00C7ED0A /* Cairo-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-ExtraLight.ttf"; sourceTree = "<group>"; };
 		3C25E7F328F563AB00C7ED0A /* Cairo-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-SemiBold.ttf"; sourceTree = "<group>"; };
@@ -75,25 +83,40 @@
 		3C25E80728F5668C00C7ED0A /* CancelDelegationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelDelegationRouter.swift; sourceTree = "<group>"; };
 		3C25E80928F5691200C7ED0A /* DelegationConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegationConfigurator.swift; sourceTree = "<group>"; };
 		3C25E80C28F56D6700C7ED0A /* UploadNewBranchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadNewBranchViewController.swift; sourceTree = "<group>"; };
-		3C25E80D28F56D6700C7ED0A /* UploadNewBranchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UploadNewBranchViewController.xib; sourceTree = "<group>"; };
 		3C25E81028F576E700C7ED0A /* UploadNewBranchInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadNewBranchInteractor.swift; sourceTree = "<group>"; };
 		3C25E81228F576F900C7ED0A /* UploadNewBranchPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadNewBranchPresenter.swift; sourceTree = "<group>"; };
 		3C25E81428F5770A00C7ED0A /* UploadNewBranchRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadNewBranchRouter.swift; sourceTree = "<group>"; };
 		3C8A029328F587AE005A554D /* DelegatorDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegatorDataViewController.swift; sourceTree = "<group>"; };
-		3C8A029428F587AE005A554D /* DelegatorDataViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DelegatorDataViewController.xib; sourceTree = "<group>"; };
 		3C8A029728F58D3B005A554D /* DelegatorDataInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegatorDataInteractor.swift; sourceTree = "<group>"; };
 		3C8A029928F58D4C005A554D /* DelegatorDataPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegatorDataPresenter.swift; sourceTree = "<group>"; };
 		3C8A029B28F58D5C005A554D /* DelegatorDataaRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegatorDataaRouter.swift; sourceTree = "<group>"; };
 		3C8A029E28F59307005A554D /* BankDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankDataViewController.swift; sourceTree = "<group>"; };
-		3C8A029F28F59307005A554D /* BankDataViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BankDataViewController.xib; sourceTree = "<group>"; };
 		3C8A02A228F596BC005A554D /* BankDataInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankDataInteractor.swift; sourceTree = "<group>"; };
 		3C8A02A428F596CA005A554D /* BankDataPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankDataPresenter.swift; sourceTree = "<group>"; };
 		3C8A02A628F596D8005A554D /* BankDataRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankDataRouter.swift; sourceTree = "<group>"; };
 		3C8A02A928F59D58005A554D /* ActivityDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDataViewController.swift; sourceTree = "<group>"; };
-		3C8A02AA28F59D58005A554D /* ActivityDataViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityDataViewController.xib; sourceTree = "<group>"; };
 		3C8A02AD28F59EDE005A554D /* ActivityDataInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDataInteractor.swift; sourceTree = "<group>"; };
 		3C8A02AF28F59EEE005A554D /* ActivityDataPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDataPresenter.swift; sourceTree = "<group>"; };
 		3C8A02B128F59EFB005A554D /* ActivityDataRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDataRouter.swift; sourceTree = "<group>"; };
+		3CD4CAC428F8160C003535F8 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		3CD4CAC528F8160C003535F8 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		3CD4CACA28F81699003535F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3CD4CACC28F8169D003535F8 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3CD4CACE28F816FD003535F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ActivityDataViewController.xib; sourceTree = "<group>"; };
+		3CD4CAD128F81701003535F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ActivityDataViewController.strings; sourceTree = "<group>"; };
+		3CD4CAD328F81705003535F8 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/ActivityDataViewController.strings; sourceTree = "<group>"; };
+		3CD4CAD528F818B9003535F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/BankDataViewController.xib; sourceTree = "<group>"; };
+		3CD4CAD828F818BD003535F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/BankDataViewController.strings; sourceTree = "<group>"; };
+		3CD4CADA28F818C1003535F8 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/BankDataViewController.strings; sourceTree = "<group>"; };
+		3CD4CADC28F8191C003535F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/DelegatorDataViewController.xib; sourceTree = "<group>"; };
+		3CD4CAE128F81928003535F8 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/DelegatorDataViewController.strings; sourceTree = "<group>"; };
+		3CD4CAE328F819AE003535F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/UploadNewBranchViewController.xib; sourceTree = "<group>"; };
+		3CD4CAE828F819B5003535F8 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/UploadNewBranchViewController.strings; sourceTree = "<group>"; };
+		3CD4CAEA28F81A2A003535F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CancelDelegationViewController.xib; sourceTree = "<group>"; };
+		3CD4CAED28F81A2E003535F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/CancelDelegationViewController.strings; sourceTree = "<group>"; };
+		3CD4CAEF28F81A30003535F8 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/CancelDelegationViewController.strings; sourceTree = "<group>"; };
+		3CD4CAF028F82B74003535F8 /* LocalizeHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizeHelper.swift; sourceTree = "<group>"; };
+		3CD4CAF228F842FC003535F8 /* ViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +130,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C1F0F1728F6AA4D00CD49C3 /* validator */ = {
+			isa = PBXGroup;
+			children = (
+				3C1F0F1828F6AAB500CD49C3 /* Validator.swift */,
+			);
+			path = validator;
+			sourceTree = "<group>";
+		};
+		3C1F0F1A28F6ACE500CD49C3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3C1F0F1B28F6AD5100CD49C3 /* StringExtension.swift */,
+				3CD4CAF228F842FC003535F8 /* ViewControllerExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3C1F0F1D28F6BC1A00CD49C3 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				3C1F0F1E28F6BC2A00CD49C3 /* DatePicker.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		3C25E7C728F55C9900C7ED0A = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +174,10 @@
 		3C25E7D228F55C9900C7ED0A /* Delegation Rasid */ = {
 			isa = PBXGroup;
 			children = (
+				3CD4CAC628F81653003535F8 /* localization */,
+				3C1F0F1D28F6BC1A00CD49C3 /* Helper */,
+				3C1F0F1A28F6ACE500CD49C3 /* Extensions */,
+				3C1F0F1728F6AA4D00CD49C3 /* validator */,
 				3C25E7EE28F5638100C7ED0A /* Resources */,
 				3C25E7E728F55F2700C7ED0A /* Delegation */,
 				3C25E7D328F55C9900C7ED0A /* AppDelegate.swift */,
@@ -164,7 +216,7 @@
 			isa = PBXGroup;
 			children = (
 				3C25E7EA28F55F6B00C7ED0A /* CancelDelegationViewController.swift */,
-				3C25E7EB28F55F6B00C7ED0A /* CancelDelegationViewController.xib */,
+				3CD4CAEB28F81A2A003535F8 /* CancelDelegationViewController.xib */,
 				3C25E80328F5666B00C7ED0A /* CancelDelegationInteractor.swift */,
 				3C25E80528F5667D00C7ED0A /* CancelDelegationPresenter.swift */,
 				3C25E80728F5668C00C7ED0A /* CancelDelegationRouter.swift */,
@@ -208,7 +260,7 @@
 			isa = PBXGroup;
 			children = (
 				3C25E80C28F56D6700C7ED0A /* UploadNewBranchViewController.swift */,
-				3C25E80D28F56D6700C7ED0A /* UploadNewBranchViewController.xib */,
+				3CD4CAE428F819AE003535F8 /* UploadNewBranchViewController.xib */,
 				3C25E81028F576E700C7ED0A /* UploadNewBranchInteractor.swift */,
 				3C25E81228F576F900C7ED0A /* UploadNewBranchPresenter.swift */,
 				3C25E81428F5770A00C7ED0A /* UploadNewBranchRouter.swift */,
@@ -220,7 +272,7 @@
 			isa = PBXGroup;
 			children = (
 				3C8A029328F587AE005A554D /* DelegatorDataViewController.swift */,
-				3C8A029428F587AE005A554D /* DelegatorDataViewController.xib */,
+				3CD4CADD28F8191C003535F8 /* DelegatorDataViewController.xib */,
 				3C8A029728F58D3B005A554D /* DelegatorDataInteractor.swift */,
 				3C8A029928F58D4C005A554D /* DelegatorDataPresenter.swift */,
 				3C8A029B28F58D5C005A554D /* DelegatorDataaRouter.swift */,
@@ -232,7 +284,7 @@
 			isa = PBXGroup;
 			children = (
 				3C8A029E28F59307005A554D /* BankDataViewController.swift */,
-				3C8A029F28F59307005A554D /* BankDataViewController.xib */,
+				3CD4CAD628F818B9003535F8 /* BankDataViewController.xib */,
 				3C8A02A228F596BC005A554D /* BankDataInteractor.swift */,
 				3C8A02A428F596CA005A554D /* BankDataPresenter.swift */,
 				3C8A02A628F596D8005A554D /* BankDataRouter.swift */,
@@ -244,12 +296,21 @@
 			isa = PBXGroup;
 			children = (
 				3C8A02A928F59D58005A554D /* ActivityDataViewController.swift */,
-				3C8A02AA28F59D58005A554D /* ActivityDataViewController.xib */,
+				3CD4CACF28F816FD003535F8 /* ActivityDataViewController.xib */,
 				3C8A02AD28F59EDE005A554D /* ActivityDataInteractor.swift */,
 				3C8A02AF28F59EEE005A554D /* ActivityDataPresenter.swift */,
 				3C8A02B128F59EFB005A554D /* ActivityDataRouter.swift */,
 			);
 			path = activityData;
+			sourceTree = "<group>";
+		};
+		3CD4CAC628F81653003535F8 /* localization */ = {
+			isa = PBXGroup;
+			children = (
+				3CD4CAF028F82B74003535F8 /* LocalizeHelper.swift */,
+				3CD4CACB28F81699003535F8 /* Localizable.strings */,
+			);
+			path = localization;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,6 +355,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 3C25E7C728F55C9900C7ED0A;
 			productRefGroup = 3C25E7D128F55C9900C7ED0A /* Products */;
@@ -310,19 +372,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C8A02A128F59307005A554D /* BankDataViewController.xib in Resources */,
+				3CD4CAD428F818B9003535F8 /* BankDataViewController.xib in Resources */,
 				3C25E7FF28F563AC00C7ED0A /* Cairo-Light.ttf in Resources */,
-				3C8A029628F587AE005A554D /* DelegatorDataViewController.xib in Resources */,
-				3C8A02AC28F59D58005A554D /* ActivityDataViewController.xib in Resources */,
+				3CD4CADB28F8191C003535F8 /* DelegatorDataViewController.xib in Resources */,
+				3CD4CACD28F816FD003535F8 /* ActivityDataViewController.xib in Resources */,
 				3C25E7FE28F563AC00C7ED0A /* Cairo-Regular.ttf in Resources */,
 				3C25E7FD28F563AC00C7ED0A /* Cairo-Medium.ttf in Resources */,
-				3C25E7ED28F55F6B00C7ED0A /* CancelDelegationViewController.xib in Resources */,
+				3CD4CAE928F81A2A003535F8 /* CancelDelegationViewController.xib in Resources */,
 				3C25E80028F563AC00C7ED0A /* Cairo-Black.ttf in Resources */,
 				3C25E7FB28F563AC00C7ED0A /* Cairo-ExtraLight.ttf in Resources */,
-				3C25E80F28F56D6700C7ED0A /* UploadNewBranchViewController.xib in Resources */,
+				3CD4CAE228F819AE003535F8 /* UploadNewBranchViewController.xib in Resources */,
 				3C25E7FA28F563AC00C7ED0A /* Cairo-ExtraBold.ttf in Resources */,
 				3C25E80228F563AC00C7ED0A /* Cairo-VariableFont_wght.ttf in Resources */,
 				3C25E7E028F55C9900C7ED0A /* LaunchScreen.storyboard in Resources */,
+				3CD4CAC928F81699003535F8 /* Localizable.strings in Resources */,
 				3C25E7DD28F55C9900C7ED0A /* Assets.xcassets in Resources */,
 				3C25E7DB28F55C9900C7ED0A /* Main.storyboard in Resources */,
 				3C25E80128F563AC00C7ED0A /* Cairo-Bold.ttf in Resources */,
@@ -339,6 +402,7 @@
 			files = (
 				3C8A02B028F59EEE005A554D /* ActivityDataPresenter.swift in Sources */,
 				3C25E81528F5770A00C7ED0A /* UploadNewBranchRouter.swift in Sources */,
+				3CD4CAF128F82B74003535F8 /* LocalizeHelper.swift in Sources */,
 				3C25E7EC28F55F6B00C7ED0A /* CancelDelegationViewController.swift in Sources */,
 				3C8A02A728F596D8005A554D /* BankDataRouter.swift in Sources */,
 				3C25E80828F5668C00C7ED0A /* CancelDelegationRouter.swift in Sources */,
@@ -350,16 +414,20 @@
 				3C8A029828F58D3B005A554D /* DelegatorDataInteractor.swift in Sources */,
 				3C8A02B228F59EFB005A554D /* ActivityDataRouter.swift in Sources */,
 				3C25E80628F5667D00C7ED0A /* CancelDelegationPresenter.swift in Sources */,
+				3CD4CAF328F842FC003535F8 /* ViewControllerExtension.swift in Sources */,
 				3C8A029C28F58D5C005A554D /* DelegatorDataaRouter.swift in Sources */,
 				3C8A029A28F58D4C005A554D /* DelegatorDataPresenter.swift in Sources */,
 				3C8A02A328F596BC005A554D /* BankDataInteractor.swift in Sources */,
 				3C25E80E28F56D6700C7ED0A /* UploadNewBranchViewController.swift in Sources */,
+				3C1F0F1F28F6BC2A00CD49C3 /* DatePicker.swift in Sources */,
 				3C8A02AE28F59EDF005A554D /* ActivityDataInteractor.swift in Sources */,
 				3C25E80428F5666B00C7ED0A /* CancelDelegationInteractor.swift in Sources */,
 				3C25E7D428F55C9900C7ED0A /* AppDelegate.swift in Sources */,
 				3C8A02A028F59307005A554D /* BankDataViewController.swift in Sources */,
 				3C25E80A28F5691200C7ED0A /* DelegationConfigurator.swift in Sources */,
+				3C1F0F1928F6AAB500CD49C3 /* Validator.swift in Sources */,
 				3C25E7D628F55C9900C7ED0A /* SceneDelegate.swift in Sources */,
+				3C1F0F1C28F6AD5100CD49C3 /* StringExtension.swift in Sources */,
 				3C25E81328F576F900C7ED0A /* UploadNewBranchPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -371,6 +439,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				3C25E7DA28F55C9900C7ED0A /* Base */,
+				3CD4CAC428F8160C003535F8 /* ar */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -379,8 +448,66 @@
 			isa = PBXVariantGroup;
 			children = (
 				3C25E7DF28F55C9900C7ED0A /* Base */,
+				3CD4CAC528F8160C003535F8 /* ar */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3CD4CACB28F81699003535F8 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CD4CACA28F81699003535F8 /* en */,
+				3CD4CACC28F8169D003535F8 /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		3CD4CACF28F816FD003535F8 /* ActivityDataViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CD4CACE28F816FD003535F8 /* Base */,
+				3CD4CAD128F81701003535F8 /* en */,
+				3CD4CAD328F81705003535F8 /* ar */,
+			);
+			name = ActivityDataViewController.xib;
+			sourceTree = "<group>";
+		};
+		3CD4CAD628F818B9003535F8 /* BankDataViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CD4CAD528F818B9003535F8 /* Base */,
+				3CD4CAD828F818BD003535F8 /* en */,
+				3CD4CADA28F818C1003535F8 /* ar */,
+			);
+			name = BankDataViewController.xib;
+			sourceTree = "<group>";
+		};
+		3CD4CADD28F8191C003535F8 /* DelegatorDataViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CD4CADC28F8191C003535F8 /* Base */,
+				3CD4CAE128F81928003535F8 /* ar */,
+			);
+			name = DelegatorDataViewController.xib;
+			sourceTree = "<group>";
+		};
+		3CD4CAE428F819AE003535F8 /* UploadNewBranchViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CD4CAE328F819AE003535F8 /* Base */,
+				3CD4CAE828F819B5003535F8 /* ar */,
+			);
+			name = UploadNewBranchViewController.xib;
+			sourceTree = "<group>";
+		};
+		3CD4CAEB28F81A2A003535F8 /* CancelDelegationViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CD4CAEA28F81A2A003535F8 /* Base */,
+				3CD4CAED28F81A2E003535F8 /* en */,
+				3CD4CAEF28F81A30003535F8 /* ar */,
+			);
+			name = CancelDelegationViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -390,6 +517,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -450,6 +578,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";

@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "Upload New Delegation"; ObjectID = "Zmr-4u-y7T"; */
+"Zmr-4u-y7T.text" = "رفع تفويض جدي";
+
+/* Class = "UILabel"; text = "Aceept delegation to manager about account"; ObjectID = "oIp-46-GcQ"; */
+"oIp-46-GcQ.text" = "اوافق للتفويض للمدير علي الحساب";
+
+/* Class = "UIButton"; configuration.title = "Button"; ObjectID = "qJ6-DT-7be"; */
+"qJ6-DT-7be.configuration.title" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "qJ6-DT-7be"; */
+"qJ6-DT-7be.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Next"; ObjectID = "yre-R0-fPK"; */
+"yre-R0-fPK.configuration.title" = "التالي";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "yre-R0-fPK"; */
+"yre-R0-fPK.normalTitle" = "Button";

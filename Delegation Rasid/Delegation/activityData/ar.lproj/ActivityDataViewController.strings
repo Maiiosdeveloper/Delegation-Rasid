@@ -1,0 +1,93 @@
+
+/* Class = "UILabel"; text = "City"; ObjectID = "0pI-al-KfD"; */
+"0pI-al-KfD.text" = "المدينة";
+
+/* Class = "UILabel"; text = "Confirm correct data"; ObjectID = "9Vi-FW-T4k"; */
+"9Vi-FW-T4k.text" = "تأكيد صحة البيانات";
+
+/* Class = "UILabel"; text = "SA"; ObjectID = "F2e-ba-l24"; */
+"F2e-ba-l24.text" = "رس";
+
+/* Class = "UILabel"; text = "Monthly Expected Sales"; ObjectID = "Gm2-Iv-hfA"; */
+"Gm2-Iv-hfA.text" = "الراتب الشهري المتوقع";
+
+/* Class = "UILabel"; text = "Company Money"; ObjectID = "Hxg-45-4gu"; */
+"Hxg-45-4gu.text" = "مصاريف الشركة";
+
+/* Class = "UITextField"; placeholder = "Enter Monthly Expected Sales"; ObjectID = "J3o-HG-vjb"; */
+"J3o-HG-vjb.placeholder" = "ادخل الراتب الشهري المتوقع";
+
+/* Class = "UILabel"; text = "Neighboorhood"; ObjectID = "MCB-iw-YaK"; */
+"MCB-iw-YaK.text" = "الحي";
+
+/* Class = "UILabel"; text = "Street"; ObjectID = "SJ7-hP-onI"; */
+"SJ7-hP-onI.text" = "الشارع";
+
+/* Class = "UILabel"; text = "Delegation Data"; ObjectID = "SSl-lu-jlS"; */
+"SSl-lu-jlS.text" = "بيانات التفويض";
+
+/* Class = "UITextField"; placeholder = "Enter Daily Expected Sales"; ObjectID = "Tm7-7i-4vh"; */
+"Tm7-7i-4vh.placeholder" = "ادخل الراتب اليومي المتوقع";
+
+/* Class = "UILabel"; text = "Delegation Data"; ObjectID = "UtD-qN-o8y"; */
+"UtD-qN-o8y.text" = "بيانات التفويض";
+
+/* Class = "UITextField"; placeholder = "Select City"; ObjectID = "UyR-bn-ZGU"; */
+"UyR-bn-ZGU.placeholder" = "اختار المدينة";
+
+/* Class = "UITextField"; placeholder = "Select Region"; ObjectID = "VPu-sW-hyY"; */
+"VPu-sW-hyY.placeholder" = "اختار المنطقة";
+
+/* Class = "UILabel"; text = "Activity Data"; ObjectID = "W2C-WG-oSv"; */
+"W2C-WG-oSv.text" = "بيانات النشاط";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "X0v-jk-1mM"; */
+"X0v-jk-1mM.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Delegation Data"; ObjectID = "bwU-l0-EwI"; */
+"bwU-l0-EwI.text" = "بيانات التفويض";
+
+/* Class = "UIButton"; configuration.title = "Next"; ObjectID = "dlJ-BQ-QLB"; */
+"dlJ-BQ-QLB.configuration.title" = "التالي";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "dlJ-BQ-QLB"; */
+"dlJ-BQ-QLB.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "SA"; ObjectID = "gfF-IM-Gpd"; */
+"gfF-IM-Gpd.text" = "رس";
+
+/* Class = "UITextField"; placeholder = "Enter Street Name"; ObjectID = "iMC-Z5-Pgw"; */
+"iMC-Z5-Pgw.placeholder" = "ادخل اسم الشارع";
+
+/* Class = "UITextField"; placeholder = "Enter Year Expected Sales"; ObjectID = "kRS-y9-5te"; */
+"kRS-y9-5te.placeholder" = "ادخل المبيعات المتوقعة";
+
+/* Class = "UILabel"; text = "SA"; ObjectID = "ohX-Vk-QZJ"; */
+"ohX-Vk-QZJ.text" = "رس";
+
+/* Class = "UILabel"; text = "Year Expected Sales"; ObjectID = "oo8-Or-x4d"; */
+"oo8-Or-x4d.text" = "المبيعات السنوية المتوقعة";
+
+/* Class = "UILabel"; text = "Activity Type"; ObjectID = "sK4-va-LyD"; */
+"sK4-va-LyD.text" = "اختار النشاط";
+
+/* Class = "UILabel"; text = "Region"; ObjectID = "u4e-5f-Tg1"; */
+"u4e-5f-Tg1.text" = "المنطقة";
+
+/* Class = "UILabel"; text = "SA"; ObjectID = "uD3-m2-AkH"; */
+"uD3-m2-AkH.text" = "رس";
+
+/* Class = "UITextField"; placeholder = "Select Activity Type"; ObjectID = "ueV-ke-3Lh"; */
+"ueV-ke-3Lh.placeholder" = "اختار نوع النشاط";
+
+/* Class = "UITextField"; placeholder = "Select Neighboorhood"; ObjectID = "v9m-kp-v0u"; */
+"v9m-kp-v0u.placeholder" = "اختار الحي";
+
+/* Class = "UILabel"; text = "I agree on"; ObjectID = "wOR-Nm-9m6"; */
+"wOR-Nm-9m6.text" = "أوافق علي";
+
+/* Class = "UILabel"; text = "Daily Expected Sales"; ObjectID = "xOo-kV-9Eh"; */
+"xOo-kV-9Eh.text" = "المبيعات اليومية المتوقعة";
+
+/* Class = "UITextField"; placeholder = "Enter Delegator Name"; ObjectID = "z2j-2G-LrK"; */
+"z2j-2G-LrK.placeholder" = "ادخل اسم المفوض";

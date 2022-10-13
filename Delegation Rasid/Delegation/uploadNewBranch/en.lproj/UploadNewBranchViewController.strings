@@ -1,0 +1,45 @@
+
+/* Class = "UILabel"; text = "Document No"; ObjectID = "1cF-ll-Non"; */
+"1cF-ll-Non.text" = "Document No";
+
+/* Class = "UIButton"; configuration.title = "Next"; ObjectID = "1uy-uM-LFb"; */
+"1uy-uM-LFb.configuration.title" = "Next";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "1uy-uM-LFb"; */
+"1uy-uM-LFb.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Delegation Data"; ObjectID = "4m3-Df-B1b"; */
+"4m3-Df-B1b.text" = "Delegation Data";
+
+/* Class = "UILabel"; text = "Delegation Data"; ObjectID = "7am-iF-d9q"; */
+"7am-iF-d9q.text" = "Delegation Data";
+
+/* Class = "UILabel"; text = "Delegation Expire Data"; ObjectID = "HWW-0T-6rB"; */
+"HWW-0T-6rB.text" = "Delegation Expire Data";
+
+/* Class = "UILabel"; text = "Required"; ObjectID = "HwY-ar-QMh"; */
+"HwY-ar-QMh.text" = "Required";
+
+/* Class = "UILabel"; text = "User ID No"; ObjectID = "IWu-yw-hYt"; */
+"IWu-yw-hYt.text" = "User ID No";
+
+/* Class = "UILabel"; text = "Delegation Data"; ObjectID = "R6w-Bh-Q5Y"; */
+"R6w-Bh-Q5Y.text" = "Delegation Data";
+
+/* Class = "UITextField"; placeholder = "Month / Day / Year"; ObjectID = "Uix-bu-len"; */
+"Uix-bu-len.placeholder" = "Month / Day / Year";
+
+/* Class = "UILabel"; text = "Required"; ObjectID = "dZA-UD-diK"; */
+"dZA-UD-diK.text" = "Required";
+
+/* Class = "UITextField"; placeholder = "Enter Document No"; ObjectID = "iZj-AT-OlQ"; */
+"iZj-AT-OlQ.placeholder" = "Enter Document No";
+
+/* Class = "UILabel"; text = "Delegation Data"; ObjectID = "mFt-lT-OKN"; */
+"mFt-lT-OKN.text" = "Delegation Data";
+
+/* Class = "UITextField"; placeholder = "Enter User ID No"; ObjectID = "noe-xO-ZIE"; */
+"noe-xO-ZIE.placeholder" = "Enter User ID No";
+
+/* Class = "UILabel"; text = "Required"; ObjectID = "y9R-LM-bah"; */
+"y9R-LM-bah.text" = "Required";

@@ -1,0 +1,39 @@
+
+/* Class = "UILabel"; text = "SA"; ObjectID = "9fD-3x-r0s"; */
+"9fD-3x-r0s.text" = "SA";
+
+/* Class = "UILabel"; text = "Delegation Data"; ObjectID = "B85-gg-z5P"; */
+"B85-gg-z5P.text" = "Delegation Data";
+
+/* Class = "UILabel"; text = "Iban"; ObjectID = "Bo9-GA-Scd"; */
+"Bo9-GA-Scd.text" = "Iban";
+
+/* Class = "UIButton"; configuration.title = "Next"; ObjectID = "QdS-eP-DPW"; */
+"QdS-eP-DPW.configuration.title" = "Next";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "QdS-eP-DPW"; */
+"QdS-eP-DPW.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Enter Delegator Name"; ObjectID = "Qlb-Bx-389"; */
+"Qlb-Bx-389.placeholder" = "Enter Delegator Name";
+
+/* Class = "UILabel"; text = "Delegation Data"; ObjectID = "XCW-49-2V3"; */
+"XCW-49-2V3.text" = "Delegation Data";
+
+/* Class = "UITextField"; placeholder = "Enter Bank Name"; ObjectID = "Xht-wk-wtJ"; */
+"Xht-wk-wtJ.placeholder" = "Enter Bank Name";
+
+/* Class = "UILabel"; text = "Bank Account"; ObjectID = "hJG-PB-Lhn"; */
+"hJG-PB-Lhn.text" = "Bank Account";
+
+/* Class = "UILabel"; text = "Delegation Data"; ObjectID = "iDv-Ky-xD9"; */
+"iDv-Ky-xD9.text" = "Delegation Data";
+
+/* Class = "UILabel"; text = "Delegation Data"; ObjectID = "ksG-BH-jVc"; */
+"ksG-BH-jVc.text" = "Delegation Data";
+
+/* Class = "UILabel"; text = "Bank Name"; ObjectID = "rO1-Xc-sqX"; */
+"rO1-Xc-sqX.text" = "Bank Name";
+
+/* Class = "UITextField"; placeholder = "Enter Bank Name"; ObjectID = "riw-M3-W6e"; */
+"riw-M3-W6e.placeholder" = "Enter Bank Name";

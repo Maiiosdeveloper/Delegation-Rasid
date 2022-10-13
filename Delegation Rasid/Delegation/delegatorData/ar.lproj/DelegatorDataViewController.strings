@@ -1,0 +1,54 @@
+
+/* Class = "UILabel"; text = "Delegation Data"; ObjectID = "4ND-GB-llJ"; */
+"4ND-GB-llJ.text" = "بيانات التفويض";
+
+/* Class = "UILabel"; text = "Delegation Data"; ObjectID = "50I-n4-XQx"; */
+"50I-n4-XQx.text" = "بيانات التفويض";
+
+/* Class = "UILabel"; text = "Passport No"; ObjectID = "8Yc-un-zm3"; */
+"8Yc-un-zm3.text" = "رقم الباسبور";
+
+/* Class = "UILabel"; text = "Delegator Name"; ObjectID = "BPH-7Z-xnb"; */
+"BPH-7Z-xnb.text" = "اسم المفوض";
+
+/* Class = "UILabel"; text = "Required"; ObjectID = "DQu-J1-1Se"; */
+"DQu-J1-1Se.text" = "مطلوب";
+
+/* Class = "UILabel"; text = "Required"; ObjectID = "EQz-RO-dMb"; */
+"EQz-RO-dMb.text" = "مطلوب";
+
+/* Class = "UITextField"; placeholder = "Month / Day / Year"; ObjectID = "Lnt-q4-Dgu"; */
+"Lnt-q4-Dgu.placeholder" = "شهر / يوم / سنة";
+
+/* Class = "UILabel"; text = "Delegation Data"; ObjectID = "OzE-04-GbE"; */
+"OzE-04-GbE.text" = "بيانات التفويض";
+
+/* Class = "UILabel"; text = "Phone No"; ObjectID = "X3T-Vz-IIg"; */
+"X3T-Vz-IIg.text" = "رقم الجوال";
+
+/* Class = "UILabel"; text = "Required"; ObjectID = "X8P-GH-wlI"; */
+"X8P-GH-wlI.text" = "مطلوب";
+
+/* Class = "UITextField"; placeholder = "Enter Passport No"; ObjectID = "dkf-SG-eSt"; */
+"dkf-SG-eSt.placeholder" = "ادخل رقم الباسبور";
+
+/* Class = "UIButton"; configuration.title = "Next"; ObjectID = "eES-Dd-eEq"; */
+"eES-Dd-eEq.configuration.title" = "التالي";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "eES-Dd-eEq"; */
+"eES-Dd-eEq.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Birth Data"; ObjectID = "hEi-8A-syG"; */
+"hEi-8A-syG.text" = "تاريخ الميلاد";
+
+/* Class = "UITextField"; placeholder = "Enter Phone No"; ObjectID = "mr9-7n-knO"; */
+"mr9-7n-knO.placeholder" = "ادخل رقم الجوال";
+
+/* Class = "UILabel"; text = "Required"; ObjectID = "p98-U0-Hu6"; */
+"p98-U0-Hu6.text" = "مطلوب";
+
+/* Class = "UITextField"; placeholder = "Enter Delegator Name"; ObjectID = "rqk-Hg-gV3"; */
+"rqk-Hg-gV3.placeholder" = "ادخل اسم المفوض";
+
+/* Class = "UILabel"; text = "Delegation Data"; ObjectID = "ux8-CF-hqR"; */
+"ux8-CF-hqR.text" = "بيانات التفويض";

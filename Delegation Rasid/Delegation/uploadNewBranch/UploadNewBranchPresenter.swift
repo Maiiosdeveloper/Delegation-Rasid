@@ -7,7 +7,9 @@
 
 import Foundation
 protocol UploadNewBranchPresentationLayer {
-    
+    func validDocumnentNo(isValid: Bool)
+    func validUserIDNo(isValid: Bool)
+    func validExpiryDate(isValid: Bool)
 }
 class UploadNewBranchPresenter {
     var view: UploadNewBranchDisplayLogic?
@@ -16,5 +18,17 @@ class UploadNewBranchPresenter {
     }
 }
 extension UploadNewBranchPresenter: UploadNewBranchPresentationLayer {
+    func validExpiryDate(isValid: Bool) {
+        view?.displayExpiryDateResult(isValid: isValid)
+    }
+    
+    func validUserIDNo(isValid: Bool) {
+        view?.displayUserIDNoResult(isValid: isValid)
+    }
+    
+    func validDocumnentNo(isValid: Bool) {
+        view?.displayDocumentNoResult(isValid: isValid)
+    }
+    
     
 }

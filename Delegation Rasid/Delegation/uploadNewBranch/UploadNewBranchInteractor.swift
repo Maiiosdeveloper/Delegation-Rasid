@@ -7,7 +7,9 @@
 
 import Foundation
 protocol UploadNewBranchBusinessLogic {
-    
+    func validDocumnentNo(documentNo: String)
+    func validUserIDNo(userIDNo: String)
+    func validExpiryDate(expiryDate: String)
 }
 class UploadNewBranchInteractor {
     var presenter: UploadNewBranchPresentationLayer?
@@ -16,5 +18,17 @@ class UploadNewBranchInteractor {
     }
 }
 extension UploadNewBranchInteractor: UploadNewBranchBusinessLogic {
+    func validExpiryDate(expiryDate: String) {
+        presenter?.validExpiryDate(isValid: Validator.validateTextFeild(text: expiryDate))
+    }
+    
+    func validUserIDNo(userIDNo: String) {
+        presenter?.validUserIDNo(isValid: Validator.validateTextFeild(text: userIDNo))
+    }
+    
+    func validDocumnentNo(documentNo: String) {
+        presenter?.validDocumnentNo(isValid: Validator.validateTextFeild(text: documentNo))
+    }
+    
     
 }

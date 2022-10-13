@@ -17,6 +17,13 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UploadNewBranchViewController" customModule="Delegation_Rasid" customModuleProvider="target">
             <connections>
+                <outlet property="documentNoErrorLabel" destination="y9R-LM-bah" id="are-O9-XmW"/>
+                <outlet property="documentNoTextFeild" destination="iZj-AT-OlQ" id="4GF-vk-Aqb"/>
+                <outlet property="expiryDateErrorLabel" destination="HwY-ar-QMh" id="oBe-BI-Wxq"/>
+                <outlet property="expiryDateTextFeild" destination="Uix-bu-len" id="yfi-0b-ifU"/>
+                <outlet property="nextBtn" destination="1uy-uM-LFb" id="dIH-ri-uad"/>
+                <outlet property="userIDErrorLabel" destination="dZA-UD-diK" id="GTr-9W-PWr"/>
+                <outlet property="userIDTextFeild" destination="noe-xO-ZIE" id="m9n-8r-0Pi"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -32,7 +39,7 @@
                             <rect key="frame" x="0.0" y="0.0" width="390" height="763"/>
                             <subviews>
                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="cZc-52-eRs">
-                                    <rect key="frame" x="16" y="32.000000000000028" width="358" height="472.66666666666674"/>
+                                    <rect key="frame" x="16" y="32" width="358" height="575.66666666666663"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="V6D-V4-fyc" userLabel="Selection Data Stack View">
                                             <rect key="frame" x="0.0" y="0.0" width="358" height="54.666666666666664"/>
@@ -129,13 +136,13 @@
                                             </constraints>
                                         </stackView>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="48" translatesAutoresizingMaskIntoConstraints="NO" id="sEj-z8-g5W">
-                                            <rect key="frame" x="0.0" y="86.666666666666629" width="358" height="386"/>
+                                            <rect key="frame" x="0.0" y="86.666666666666629" width="358" height="489"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="lfK-gc-LIv" userLabel="Entery Data Stack View">
-                                                    <rect key="frame" x="0.0" y="0.0" width="358" height="290"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="358" height="393"/>
                                                     <subviews>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="4HN-Ca-1Cw">
-                                                            <rect key="frame" x="0.0" y="0.0" width="358" height="86"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="358" height="120.33333333333333"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Document No" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1cF-ll-Non">
                                                                     <rect key="frame" x="0.0" y="0.0" width="358" height="30"/>
@@ -153,6 +160,9 @@
                                                                                     <rect key="frame" x="0.0" y="5.6666666666666856" width="326" height="18.666666666666668"/>
                                                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                                     <textInputTraits key="textInputTraits"/>
+                                                                                    <connections>
+                                                                                        <action selector="documentNoChangedAction:" destination="-1" eventType="editingChanged" id="dSb-NL-1cW"/>
+                                                                                    </connections>
                                                                                 </textField>
                                                                             </subviews>
                                                                         </stackView>
@@ -166,10 +176,16 @@
                                                                         <constraint firstItem="D07-IO-Z6A" firstAttribute="leading" secondItem="WYa-Yz-bSH" secondAttribute="leading" constant="16" id="wBO-ac-lR7"/>
                                                                     </constraints>
                                                                 </view>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Required" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y9R-LM-bah">
+                                                                    <rect key="frame" x="0.0" y="94.000000000000028" width="358" height="26.333333333333329"/>
+                                                                    <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="14"/>
+                                                                    <color key="textColor" systemColor="systemRedColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
                                                             </subviews>
                                                         </stackView>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="d0P-sa-eMA">
-                                                            <rect key="frame" x="0.0" y="102.00000000000003" width="358" height="86"/>
+                                                            <rect key="frame" x="0.0" y="136.33333333333334" width="358" height="120.33333333333334"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User ID No" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IWu-yw-hYt">
                                                                     <rect key="frame" x="0.0" y="0.0" width="358" height="30"/>
@@ -184,9 +200,12 @@
                                                                             <rect key="frame" x="16" y="9" width="326" height="30"/>
                                                                             <subviews>
                                                                                 <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter User ID No" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="noe-xO-ZIE">
-                                                                                    <rect key="frame" x="0.0" y="5.6666666666666288" width="326" height="18.666666666666668"/>
+                                                                                    <rect key="frame" x="0.0" y="5.6666666666666856" width="326" height="18.666666666666668"/>
                                                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                                     <textInputTraits key="textInputTraits"/>
+                                                                                    <connections>
+                                                                                        <action selector="userIDChangedAction:" destination="-1" eventType="editingChanged" id="WyU-WD-4c4"/>
+                                                                                    </connections>
                                                                                 </textField>
                                                                             </subviews>
                                                                         </stackView>
@@ -200,10 +219,16 @@
                                                                         <constraint firstItem="GOL-2z-G5d" firstAttribute="leading" secondItem="OaN-dQ-GXc" secondAttribute="leading" constant="16" id="oPZ-zD-NHU"/>
                                                                     </constraints>
                                                                 </view>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Required" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dZA-UD-diK">
+                                                                    <rect key="frame" x="0.0" y="94" width="358" height="26.333333333333329"/>
+                                                                    <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="14"/>
+                                                                    <color key="textColor" systemColor="systemRedColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
                                                             </subviews>
                                                         </stackView>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="CLJ-ab-pFO">
-                                                            <rect key="frame" x="0.0" y="204.00000000000003" width="358" height="85.999999999999972"/>
+                                                            <rect key="frame" x="0.0" y="272.66666666666663" width="358" height="120.33333333333331"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Delegation Expire Data" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HWW-0T-6rB">
                                                                     <rect key="frame" x="0.0" y="0.0" width="358" height="30"/>
@@ -217,10 +242,13 @@
                                                                         <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="JWC-47-Nrj">
                                                                             <rect key="frame" x="16" y="9" width="326" height="30"/>
                                                                             <subviews>
-                                                                                <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Month / Day / Year" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Uix-bu-len">
-                                                                                    <rect key="frame" x="0.0" y="5.6666666666666288" width="118" height="18.666666666666668"/>
+                                                                                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Month / Day / Year" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Uix-bu-len">
+                                                                                    <rect key="frame" x="0.0" y="5.6666666666666856" width="118" height="18.666666666666668"/>
                                                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                                     <textInputTraits key="textInputTraits"/>
+                                                                                    <connections>
+                                                                                        <action selector="expiryDateChanged:" destination="-1" eventType="editingChanged" id="vag-89-luI"/>
+                                                                                    </connections>
                                                                                 </textField>
                                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calendar-lines" translatesAutoresizingMaskIntoConstraints="NO" id="Z93-45-btj">
                                                                                     <rect key="frame" x="310" y="7" width="16" height="16"/>
@@ -241,12 +269,18 @@
                                                                         <constraint firstAttribute="trailing" secondItem="JWC-47-Nrj" secondAttribute="trailing" constant="16" id="b7j-Va-9EY"/>
                                                                     </constraints>
                                                                 </view>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Required" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HwY-ar-QMh">
+                                                                    <rect key="frame" x="0.0" y="94.000000000000057" width="358" height="26.333333333333329"/>
+                                                                    <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="14"/>
+                                                                    <color key="textColor" systemColor="systemRedColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
                                                             </subviews>
                                                         </stackView>
                                                     </subviews>
                                                 </stackView>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1uy-uM-LFb">
-                                                    <rect key="frame" x="89.666666666666686" y="338" width="179" height="48"/>
+                                                    <rect key="frame" x="89.666666666666686" y="441" width="179" height="48"/>
                                                     <color key="backgroundColor" red="0.1566431697" green="0.36561389119999999" blue="0.75638289299999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="48" id="Bcg-Y7-1Pg"/>
@@ -256,7 +290,7 @@
                                                         <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </buttonConfiguration>
                                                     <connections>
-                                                        <action selector="nextAction:" destination="-1" eventType="touchUpInside" id="3L9-Ta-j1X"/>
+                                                        <action selector="nextAction:" destination="-1" eventType="touchUpInside" id="Ao4-zg-lfF"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
@@ -315,6 +349,9 @@
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
